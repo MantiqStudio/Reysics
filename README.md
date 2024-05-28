@@ -1,6 +1,6 @@
 # Reysics 🟣🟢
 ## Reysics is physics system for games only in C#🕹️
-![dassa](https://github.com/MantiqStudio/Reysics/assets/167381007/1a4d22ee-b574-45c3-9fa0-cec50882f36a)
+![dassa](https://github.com/MantiqStudio/Reysics/assets/167381007/1aae3c97-06f7-4b93-9c50-2fedf24c74fc)
 
 
 # What is Reysics system 🔣
