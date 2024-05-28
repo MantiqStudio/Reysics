@@ -51,6 +51,8 @@ for SlowBody use this for add slow move:
 ```cs
 AddForce(Vector3 force)
 ```
+![dsa](https://github.com/MantiqStudio/Reysics/assets/167381007/6cfa630a-9526-47f0-b9fa-d4669856e778)
+
 # Basic Classes 🏛️
 ## Reysics class
 Reysics class is the manager of the physics world
