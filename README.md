@@ -14,6 +14,42 @@ in the first use namespace reysics in your code
 ```cs
 using reysics
 ```
+## Reysics Body 👁️
+To create a new physical body
+```cs
+ReysicsObject Object = new ReysicsObject();
+```
+To apply impulsion, movement and physical interactions
+```cs
+RRB = new ReysicsRigidBody(Object);
+```
+or use this for slow body:
+```
+RSB = new ReysicsSlowBody(Object);
+```
+## Checks 🏁
+Point cast:
+```cs
+PointCast(Vector3 point, out ReysicsHit hit)
+```
+Box cast:
+```cs
+BoxCast(Vector3 point, Vector3 scale, Quaternion rotation, out ReysicsHit hit)
+```
+## Add Move & Force ➕
+for RigidBody and SlowBody use this for add move:
+```cs
+AddMove(Vector3 move)
+```
+or 
+```cs
+Velocity += move;
+```
+for SlowBody use this for add slow move:
+```cs
+AddForce(Vector3 force)
+```
+# Basic Classes 🏛️
 ## Reysics class
 Reysics class is the manager of the physics world
 - Gravity (Vector3) : The amount of force with which a body moves in meters per second
